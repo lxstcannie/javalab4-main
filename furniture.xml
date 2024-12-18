@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<furnitures>
+    <furniture>
+        <id>4324</id>
+        <type>gdgfbg</type>
+        <weight>1324</weight>
+        <amount>2</amount>
+        <price>1321.5</price>
+    </furniture>
+    <furniture>
+        <id>312</id>
+        <type>sdfsfas</type>
+        <weight>432</weight>
+        <amount>5</amount>
+        <price>432.6</price>
+    </furniture>
+</furnitures>
