@@ -20,16 +20,16 @@ public class FileManagerTest {
         Path tempFile = Files.createTempFile("furnitures2", ".txt");
 
         List<Furniture> furnitureList = new ArrayList<>();
-        furnitureList.add(new ConcreteFurniture(1, "Кирпичный", 120, 2, 3000000));
-        furnitureList.add(new ConcreteFurniture(2, "Деревянный", 80, 1, 1500000));
+        furnitureList.add(new ConcreteFurniture(1, "Обеденный стол", 120, 2, 3000000));
+        furnitureList.add(new ConcreteFurniture(2, "Кресло", 80, 1, 1500000));
 
         FileManager.writeToTxt(tempFile.toString(), furnitureList);
 
         List<String> fileContent = Files.readAllLines(tempFile);
 
         assertEquals(2, fileContent.size());
-        assertTrue(fileContent.get(0).contains("Кирпичный"));
-        assertTrue(fileContent.get(1).contains("Деревянный"));
+        assertTrue(fileContent.get(0).contains("Обеденный стол"));
+        assertTrue(fileContent.get(1).contains("Кресло"));
 
         Files.deleteIfExists(tempFile);
     }

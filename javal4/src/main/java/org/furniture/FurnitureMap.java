@@ -19,11 +19,6 @@ public class FurnitureMap extends FurnitureCollection {
         furnitureMap.remove(id);
     }
 
-    // @Override
-    // public void updateFurniture(Furniture furniture) {
-    //     furnitureMap.put(furniture.getId(), furniture);
-    // }
-
     @Override
     public List<Furniture> getAllFurniture() {
         return new ArrayList<>(furnitureMap.values());

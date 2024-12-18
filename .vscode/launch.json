@@ -19,9 +19,9 @@
         },
         {
             "type": "java",
-            "name": "HouseFactory",
+            "name": "FurnitureFactory",
             "request": "launch",
-            "mainClass": "org.houses.HouseFactory",
+            "mainClass": "org.furniture.FurnitureFactory",
             "projectName": "javal4"
         }
     ]

@@ -20,15 +20,6 @@ public class FurnitureList extends FurnitureCollection {
         furnitures.removeIf(h -> h.getId() == id);
     }
 
-    // @Override
-    // public void updateFurniture(Furniture furniture) {
-    //     for (int i = 0; i < furnitures.size(); i++) {
-    //         if (furnitures.get(i).getId() == furniture.getId()) {
-    //             furnitures.set(i, furniture);
-    //         }
-    //     }
-    // }
-
     @Override
     public List<Furniture> getAllFurniture() {
         return furnitures;
